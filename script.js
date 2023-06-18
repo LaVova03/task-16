@@ -32,11 +32,6 @@ function Building(name, flatQunatity) {
     };
 };
 
-
-Flat.prototype = new Human();
-Building.prototype = new Flat();
-
-
 const person1 = new Human("Ivan", "Male");
 const person2 = new Human("Denis", "Male");
 const person3 = new Human("Alisa", "Female");
